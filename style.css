@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin-top: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.header__name {
+  font-size: 1.9rem;
+}
+
+.header__name,
+.header__addr {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.section__header {
+  display: flex;
+  justify-content: start;
+  padding-bottom: 0.2rem;
+}
+
+hr {
+  margin-left: 1rem;
+  height: 0.08rem;
+  background-color: black;
+}
+
+.section__body {
+  margin-top: 0.5rem;
+}
